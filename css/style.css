@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  padding: 20px;
+  color: #333;
+}
+h1 { color: #007acc; }
+
+.evento-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 10px;
+}
+.evento {
+  flex: 1;
+  background: #eef6fb;
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+}
+.evento button {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.inscrito { background: #d9534f; }
+.nao-inscrito { background: #007acc; }
+.contador { font-weight: bold; color: #007acc; }
+
+/* Estilo do nav do EventHub */
+header nav {
+  margin-top: 10px;
+  background: #007acc;
+  padding: 10px 15px;
+  border-radius: 6px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background 0.3s, color 0.3s;
+}
+header nav a:hover {
+  background: #005a99;
+  color: #fff;
+}
